@@ -17,7 +17,7 @@ const Sidebar = ({ handleLogout, isOpen, closeSidebar }) => (
       <div className="logo-container" style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <h2 className="gradient-text" style={{ fontSize: '1.5rem', fontWeight: '800' }}>
-            HackCrux
+            Hackathon
           </h2>
           <p style={{ fontSize: '0.8rem', color: '#9ca3af' }}>Registration System</p>
         </div>
@@ -77,7 +77,7 @@ const App = () => {
             {/* Mobile Header */}
             <div className="mobile-header">
               <div>
-                <h2 className="gradient-text" style={{ fontSize: '1.25rem', fontWeight: '800', margin: 0 }}>HackCrux</h2>
+                <h2 className="gradient-text" style={{ fontSize: '1.25rem', fontWeight: '800', margin: 0 }}>Hackathon</h2>
               </div>
               <button className="menu-trigger" onClick={toggleSidebar}>
                 <Menu size={24} />
